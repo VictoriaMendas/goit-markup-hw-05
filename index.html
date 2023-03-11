@@ -27,14 +27,14 @@
             >Web<span class="logo-studio list">Studio</span></a
           >
           <ul class="header-flex">
-            <li class="link">
-              <a class="list header-head" href="./index.html">Studio</a>
+            <li class="link header-flow">
+              <a class="list header-head active" href="./index.html">Studio</a>
             </li>
-            <li class="link">
+            <li class="link header-flow">
               <a class="list header-head" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="link">
-              <a class="list header-head" href="./index.html">Contacts</a>
+            <li class="link header-flow">
+              <a class="list header-head " href="./index.html">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -63,10 +63,10 @@
           </h1>
           <button
             class="item-button-title button-style item-cont-button"
-            type="button"
-          >
-            Order Service
+            type="button" data-modal-open> Order Service
           </button>
+        </div>
+        </div>
         </div>
       </section>
 
@@ -409,5 +409,16 @@
           </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+      <button
+        class="modal-close-button"
+        type="button" data-modal-close>
+        <svg class="modal-close-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+       
+      </button>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
